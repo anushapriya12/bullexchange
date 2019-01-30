@@ -2,6 +2,21 @@
 	<head>
 		<title>Bull Exhange </title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+		function validate()
+		{
+		var username = document.getElementById("user").value;
+		var password = document.getElementById("pass").value;
+		if ( username == "8985135457" && password == "8985135457")
+		{
+		alert ("Login successfully");
+		}
+		else
+		{
+		alert("Enter valid Username and Password");
+		}
+		}
+		</script>
 	</head>
 	
 	<body>
@@ -12,9 +27,9 @@
 			<br>
 			<div>
 				<form>
-				<input type="text" placeholder="Username"><br>
-				<input type="text" placeholder="Password"><br>
-				<button>Login</button>
+				<input type="text" placeholder="Username" id="user"><br>
+				<input type="text" placeholder="Password" id="pass"><br>
+				<button id="login" onclick="validate()">Login</button>
 				</form>
 			</div>
 		</div>
