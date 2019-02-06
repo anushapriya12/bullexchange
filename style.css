@@ -23,7 +23,7 @@ input{
 	box-sizing: border-box;
 	border: 2px solid #E4E0E0;
 	border-radius:2px;
-	color:;
+	outline: none;
 }
 .red{
 	width:120px;
@@ -32,6 +32,7 @@ input{
 	border-radius:2px;
 	background-color:#D62D2D  ;
 	color:white;
+	outline: none;
 }
 input:hover{
 	border: 2px solid #D62D2D;
