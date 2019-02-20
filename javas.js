@@ -1,5 +1,6 @@
 
-function displaydate(onload)
-	{
-	document.getElementById("current-date").innerHTML = Date();
+function myFunction() {
+	var d = new Date();
+	document.getElementById("current-date").innerHTML = d;
+	
 	}
